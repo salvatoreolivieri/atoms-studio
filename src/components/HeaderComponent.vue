@@ -1,6 +1,6 @@
 <template>
 
-    <header>
+    <header class="container">
 
       <!-- Logo: -->
       <div class="logo-container">
@@ -49,7 +49,6 @@ export default {
 header{
 
   height: 43px;
-  max-width: 1316px;
 
   margin: 20px 56px 20px 68px;
 

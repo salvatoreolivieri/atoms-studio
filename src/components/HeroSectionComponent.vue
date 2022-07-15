@@ -6,7 +6,7 @@
   <div class="backgroud-circle"></div>
 
 
-  <div class="hero-section-container">
+  <div class="hero-section-container container">
 
     <!-- Unique Value Proposition: -->
     <div class="unique-selling-position-container">
@@ -72,9 +72,10 @@ export default {
 
   width: 100%;
   position: relative;
-  margin: 0 auto;
 
   overflow: hidden;
+
+  margin-bottom: 120px;
 
   .backgroud-circle{
 
@@ -88,16 +89,13 @@ export default {
       top: 0;
       right: -150px;
 
-    } 
+  }
 
   .hero-section-container{
 
     position: relative;
 
-    max-width: 1316px;
     height: 880px;
-
-    margin: 0 auto;
 
     .unique-selling-position-container{
 
@@ -135,22 +133,6 @@ export default {
         line-height: 24px;
 
         margin: 20px 0;
-
-      }
-
-      .button-without-background{
-
-        background-color: white;
-
-        color: $button-color;
-        border: 1px solid $button-color;
-
-        &:hover{
-
-          background-color: $button-color;
-          color: white;
-
-        }
 
       }
 
