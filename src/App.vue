@@ -11,7 +11,7 @@
 
     <PlatformComponent />
 
-    <NesletterComponent />
+    <CtaComponent />
 
     <FooterComponent />
     
@@ -24,7 +24,7 @@ import HeroSectionComponent from './components/HeroSectionComponent.vue';
 import ServiceSectionComponent from './components/ServiceSectionComponent.vue';
 import BlogSectionComponent from './components/BlogSectionComponent.vue';
 import PlatformComponent from './components/PlatformComponent.vue';
-import NesletterComponent from './components/NesletterComponent.vue';
+import CtaComponent from './components/CtaComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
 export default {
@@ -35,9 +35,9 @@ export default {
     ServiceSectionComponent,
     BlogSectionComponent,
     PlatformComponent,
-    NesletterComponent,
-    FooterComponent
-  }
+    FooterComponent,
+    CtaComponent
+}
 }
 </script>
 

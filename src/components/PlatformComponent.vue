@@ -28,7 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 .platform-container{
-  margin-top: 141px;
+  margin-top: 140px;
 
   display: flex;
   justify-content: space-between;

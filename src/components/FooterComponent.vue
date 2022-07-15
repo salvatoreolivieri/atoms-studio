@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="container">
     footer
   </footer>
 </template>
@@ -11,5 +11,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+footer{
+  margin-top: 126px;
+
+
+}
 
 </style>

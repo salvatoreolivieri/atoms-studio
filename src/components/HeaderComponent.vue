@@ -50,7 +50,8 @@ header{
 
   height: 43px;
 
-  margin: 20px 56px 20px 68px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   display: flex;
   justify-content: space-between;

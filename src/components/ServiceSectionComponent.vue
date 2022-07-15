@@ -187,6 +187,7 @@ export default {
       .service-we-offer-container{
 
         width: 867px;
+        z-index: 9999;
 
         display: flex;
         flex-wrap: wrap;
