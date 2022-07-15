@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import NewsletterDarkComponent from "./NewsletterDarkComponent.vue";
+import NewsletterDarkComponent from "./Newsletter/NewsletterDarkComponent.vue";
 
 
 export default {

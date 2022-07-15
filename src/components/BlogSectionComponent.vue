@@ -13,15 +13,19 @@
 
     </div>
 
-    <BlogArticlesComponent />
+    <AllArticlesComponent />
+
+    <div class="cursor-indicator container">
+      <div class="indicator"></div>
+    </div>
 
   </div>
 </template>
 
 <script>
-import BlogArticlesComponent from './BlogArticlesComponent.vue';
+import AllArticlesComponent from './Blog/AllArticlesComponent.vue';
 export default {
-    components: { BlogArticlesComponent }
+    components: { AllArticlesComponent }
 }
 </script>
 
@@ -55,6 +59,27 @@ export default {
     }
 
   }
+
+  .cursor-indicator{
+      margin-top: 50px;
+      position: relative;
+
+      height: 1px;
+      border-bottom: 1px solid #CACACA;
+
+      .indicator{
+        width: 196px;
+        height: 4px;
+
+        border-radius: 10px;
+
+        background-color: black;
+
+        position: absolute;
+        top: -1px;
+        left: 200px;
+      }
+    }
 
 }
 

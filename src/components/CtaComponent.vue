@@ -18,7 +18,7 @@
 
 <script>
 
-import NewsletterLightComponent from './NewsletterLightComponent.vue';
+import NewsletterLightComponent from './Newsletter/NewsletterLightComponent.vue';
 
 export default {
     name: "CtaComponent",
