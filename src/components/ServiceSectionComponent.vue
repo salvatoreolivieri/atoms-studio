@@ -33,7 +33,6 @@
 
           <p>
             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, sed quia empora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
           </p>
 
         </div>
@@ -42,11 +41,10 @@
         <!-- Servizio 2 -->
         <div class="service">
 
-          <h3>Merchant of records</h3>
+          <h3>Operations</h3>
 
           <p>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, sed quia empora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
+            Nequempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
 
         </div>
@@ -55,11 +53,10 @@
         <!-- Servizio 3 -->
         <div class="service">
 
-          <h3>Merchant of records</h3>
+          <h3>Marketing & Sales</h3>
 
           <p>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, sed quia empora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
 
         </div>
@@ -68,11 +65,10 @@
         <!-- Servizio 4 -->
         <div class="service">
 
-          <h3>Merchant of records</h3>
+          <h3>Store Management</h3>
 
           <p>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, sed quia empora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
 
         </div>
@@ -195,11 +191,18 @@ export default {
         display: flex;
         flex-wrap: wrap;
 
+        .service:not(:first-child){
+          opacity: 0.5;
+        }
+
+
         .service{
           width: 100%;
 
           display: flex;
           justify-content: space-between;
+
+          
 
           h3{
             height: 80px;
@@ -234,6 +237,8 @@ export default {
       position: relative;
       z-index: 999;
 
+      background-color: rgba(0,0,0,0.32);
+      background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,1,27,0.64) 99.99%);
       background-image: url('../assets/img/Rectangle-1.png');
 
       height: 600px;
