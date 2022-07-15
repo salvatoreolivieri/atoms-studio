@@ -26,6 +26,26 @@
 
       <div class="service-we-offer-container">
 
+        <div class="decoration">
+          
+          <div class="little-circle">
+
+          </div>
+
+
+          <div class="line">
+
+          </div>
+
+
+          <div class="big-and-little-circle">
+
+            <div class="little-circle"></div>
+
+          </div>
+
+        </div>
+
         <!-- Servizio 1 -->
         <div class="service">
 
@@ -138,6 +158,9 @@ export default {
 
     .text-container{
 
+      position: relative;
+      z-index: 9999;
+
       height: 120px;
       width: 867px;
 
@@ -186,13 +209,15 @@ export default {
 
       .service-we-offer-container{
 
-        width: 867px;
+        position: relative;
         z-index: 9999;
+
+        width: 867px;
 
         display: flex;
         flex-wrap: wrap;
 
-        .service:not(:first-child){
+        .service:not(:nth-child(2)){
           opacity: 0.5;
         }
 

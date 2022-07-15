@@ -19,17 +19,43 @@
       </button>
     </div>
 
+
     <!-- Immagine della ragazza: -->
     <div class="backgroud-hero-image">
       <img src="../assets/img/Blauer Detroit D5_612.jpg" alt="">
     </div>
+
+    <!-- Decorazione: -->
+    <div class="decoration">
+
+      <div class="big-and-little-circle">
+        <div class="little-circle"></div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="little-circle"></div>
+
+      <div class="line"></div>
+
+      <div class="little-circle"></div>
+
+      <div class="line"></div>
+
+      <div class="little-circle"></div>
+
+      <div class="line"></div>
+
+    </div>
+
 
     <!-- Contenitore Call To Action Newsletter:-->
     <div class="newsletter-cta">
 
       <div class="newsletter-wrapper">
 
-        <img src="../assets/img/delete.svg" alt="">
+        <img src="../assets/img/delete.svg" alt="delete">
+        <img class="arrow" src="../assets/img/arrow.svg" alt="arrow">
 
         <NewsletterDarkComponent />
 
@@ -89,6 +115,23 @@ export default {
     position: relative;
 
     height: 880px;
+
+
+    .decoration{
+
+      position: absolute;
+      bottom: -350px;
+
+      z-index: 8;
+
+
+      .line{
+        width: 130px;
+      }
+
+    }
+
+    
 
     .unique-selling-position-container{
 
@@ -170,6 +213,12 @@ export default {
           right: 0;
 
           cursor: pointer;
+        }
+
+        .arrow{
+          position: absolute;
+          top: 123px;
+          right: 0;
         }
 
       }

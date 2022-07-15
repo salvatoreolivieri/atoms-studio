@@ -18,7 +18,7 @@
 
   margin: 0 auto;
 
-  border: 1px dashed black;
+  // border: 1px dashed black;
 
 }
 
@@ -78,6 +78,76 @@ button{
 
     background-color: white;
     color: black;
+
+  }
+
+}
+
+
+// Decoration:
+
+.decoration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  z-index: 9999999;
+  top: 30px;
+  right: 430px;
+
+  .little-circle{
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    background-color: $button-color;
+
+  }
+
+  .line{
+    width: 195px;
+    height: 1px;
+
+    background-color: $button-color;
+
+  }
+
+  .big-and-little-circle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    border: 1px solid $button-color;
+
+    .little-circle{
+      width: 8px;
+      height: 8px;
+  
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+  
+      background-color: $button-color;
+  
+    }
 
   }
 

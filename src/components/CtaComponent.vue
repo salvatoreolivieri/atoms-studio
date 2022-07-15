@@ -4,6 +4,8 @@
 
     <div class="newsletter-wrapper">
 
+      <img class="arrow" src="../assets/img/arrow-black.svg" alt="arrow">
+
       <NewsletterLightComponent />
 
     </div>
@@ -43,7 +45,14 @@ export default {
 
   .newsletter-wrapper{
 
+    position: relative;
     margin-left: 111px;
+
+    .arrow{
+      position: absolute;
+      top: 123px;
+      right: 0;
+    }
 
   }
 
