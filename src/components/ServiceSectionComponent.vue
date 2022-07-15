@@ -7,6 +7,7 @@
 
   <div class="service-section-container container">
 
+    <!-- Testo al centro: -->
     <div class="text-container">
       <p>
         Zerogrey is a et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti et quas  excepturi sint occaecati cupiditate non provident.
@@ -15,6 +16,7 @@
 
     <div class="how-can-we-help-container">
 
+      <!-- Testo sulla sinistra: -->
       <div class="call-to-action-container">
         <h2>How can we help your business?</h2>
 
@@ -26,22 +28,15 @@
 
       <div class="service-we-offer-container">
 
+        <!-- Decorazione: -->
         <div class="decoration">
-          
-          <div class="little-circle">
 
-          </div>
+          <div class="little-circle"></div>
 
-
-          <div class="line">
-
-          </div>
-
+          <div class="line"></div>
 
           <div class="big-and-little-circle">
-
             <div class="little-circle"></div>
-
           </div>
 
         </div>
@@ -98,7 +93,7 @@
 
     </div>
 
-
+    <!-- Contenitore con CTA -->
     <div class="why-choose-us-container">
 
       <div class="why-choose-us-text-container">

@@ -1,6 +1,7 @@
 <template>
   <div class="articles-wrapper">
 
+    <!-- Componente della card dell'articolo che ciclo: -->
     <SingleArticleComponent
       class="card-article"
 

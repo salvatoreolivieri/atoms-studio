@@ -90,11 +90,13 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding: 0px 20px;
   
   position: absolute;
   z-index: 9999999;
   top: 30px;
-  right: 430px;
+  right: 415px;
 
   .little-circle{
     width: 8px;

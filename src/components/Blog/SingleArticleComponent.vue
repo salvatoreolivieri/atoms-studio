@@ -1,10 +1,14 @@
 <template>
+
   <div class="card-article">
 
+    <!-- Immagine -->
     <img :src="`${item.img}`" :alt="item.title" >
 
+      <!-- Data -->
       <span class="date">{{item.date}}</span> <br>
 
+      <!-- Tag -->
       <div class="tag-container">
 
         <span
@@ -15,12 +19,12 @@
 
       </span>
 
+      <!-- Categoria -->
       <span class="tag">#{{item.category}}</span>
 
       </div>
 
-      
-
+      <!-- Titolo e autore -->
       <h3>{{item.title}}</h3><br>
       <span class="author">{{item.author}}</span>
 

@@ -1,6 +1,7 @@
 <template>
   <div class="blog-wrapper">
 
+    <!-- Inizio sezione con titolo e Call To Action: -->
     <div class="blog-container container">
 
       <div>
@@ -13,8 +14,10 @@
 
     </div>
 
+    <!-- Componente dove vado a ciclare il singolo articolo: -->
     <AllArticlesComponent />
 
+    <!-- Indicatore puramente estetico: -->
     <div class="cursor-indicator container">
       <div class="indicator"></div>
     </div>

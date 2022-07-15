@@ -25,6 +25,7 @@
       <img src="../assets/img/Blauer Detroit D5_612.jpg" alt="">
     </div>
 
+
     <!-- Decorazione: -->
     <div class="decoration">
 
@@ -61,9 +62,7 @@
 
       </div>
 
-
     </div>
-
 
   </div>
 

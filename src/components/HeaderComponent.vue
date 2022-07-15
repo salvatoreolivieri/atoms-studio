@@ -25,11 +25,13 @@
             <a href="#">Why Us</a>
           </li>
 
-          <li>
-            <button>Let's Talk</button>
-          </li>
-
         </ul>
+
+        <!-- Bottone: -->
+        <div>
+          <button>Let's Talk</button>
+        </div>
+
 
       </nav>
 
@@ -69,9 +71,17 @@ header{
 
   nav{
 
+    display: flex;
+
+
     ul{
       display: flex;
       align-items: center;
+
+      @media screen and (max-width: 530px) {
+        display: none;
+        padding: 20px;
+      }
 
       li{
         margin-right: 20px;
