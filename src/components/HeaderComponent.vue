@@ -74,11 +74,9 @@ header{
       align-items: center;
 
       li{
-        list-style: none;
         margin-right: 20px;
 
         a{
-          text-decoration: none;
 
           height: 20px;
           width: 40px;

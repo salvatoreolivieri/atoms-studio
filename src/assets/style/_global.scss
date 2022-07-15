@@ -84,11 +84,16 @@ button{
 }
 
 
-// Link:
+/*
+  Navigation Bar:
+*/
 
+// Link:
 a{
   cursor: pointer;
   color: #484A54;
+
+  text-decoration: none;
 
 
   &:hover{
@@ -98,5 +103,15 @@ a{
 }
 
 
-// Decoration:
+// List:
+li{
+  list-style: none;
+}
+
+
+
+
+
+
+
 

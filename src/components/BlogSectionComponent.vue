@@ -38,6 +38,10 @@ export default {
 
     margin-bottom: 40px;
 
+    a{
+      text-decoration: underline;
+    }
+
   }
 
 }
