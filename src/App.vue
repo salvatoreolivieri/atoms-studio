@@ -1,28 +1,49 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <HeaderComponent />
+
+    <HeroSectionComponent />
+
+    <ServiceSectionComponent />
+
+    <BlogSectionComponent />
+
+    <PlatformComponent />
+
+    <NesletterComponent />
+
+    <FooterComponent />
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from './components/HeaderComponent.vue';
+import HeroSectionComponent from './components/HeroSectionComponent.vue';
+import ServiceSectionComponent from './components/ServiceSectionComponent.vue';
+import BlogSectionComponent from './components/BlogSectionComponent.vue';
+import PlatformComponent from './components/PlatformComponent.vue';
+import NesletterComponent from './components/NesletterComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderComponent,
+    HeroSectionComponent,
+    ServiceSectionComponent,
+    BlogSectionComponent,
+    PlatformComponent,
+    NesletterComponent,
+    FooterComponent
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+@import './assets/style/global';
+@import './assets/style/var';
+
 </style>
