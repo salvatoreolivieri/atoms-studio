@@ -5,9 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
+
+// Utility:
 
 button{
   padding: 10px 20px;
@@ -23,6 +24,12 @@ button{
   color: white;
 
   cursor: pointer;
+
+  color: #FFFFFF;
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
 
 }
 

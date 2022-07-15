@@ -46,4 +46,10 @@ export default {
 @import './assets/style/global';
 @import './assets/style/var';
 
+@font-face {
+  font-family: "Fira Sans";
+  src: local("Fira Sans"),
+   url(./assets/font/Fira_Sans/FiraSans-Regular.ttf) format("truetype");
+}
+
 </style>

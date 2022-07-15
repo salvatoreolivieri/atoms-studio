@@ -51,7 +51,7 @@ header{
   height: 43px;
   max-width: 1316px;
 
-  margin: 20px 56px 0 68px;
+  margin: 20px 56px 20px 68px;
 
   display: flex;
   justify-content: space-between;
@@ -79,6 +79,15 @@ header{
 
         a{
           text-decoration: none;
+
+          height: 20px;
+          width: 40px;
+
+          font-family: "Fira Sans";
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0;
+          line-height: 20px;
 
         }
 
